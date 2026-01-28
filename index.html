@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumiSky | Next-Gen Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Animated Shapes -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <div class="glass-container">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="cityInput" placeholder="Input Your City...">
+        </div>
+
+        <div id="weatherDisplay">
+            <div class="location">
+                <i class="fas fa-location-dot"></i> <span id="cityName">Bekasi, ID</span>
+            </div>
+            <div class="time" id="currentTime">Loading time...</div>
+
+            <div class="temp-container">
+                <span id="temp" class="temperature">28</span><span class="unit">°</span>
+            </div>
+
+            <div id="description" class="weather-desc">Sunny Skies</div>
+
+            <div class="details-grid">
+                <div class="detail-card">
+                    <i class="fas fa-droplet"></i>
+                    <span>Humidity</span>
+                    <strong id="humidity">65%</strong>
+                </div>
+                <div class="detail-card">
+                    <i class="fas fa-wind"></i>
+                    <span>Wind Speed</span>
+                    <strong id="wind">12 km/h</strong>
+                </div>
+                <div class="detail-card">
+                    <i class="fas fa-temperature-half"></i>
+                    <span>Feels Like</span>
+                    <strong id="feelsLike">30°C</strong>
+                </div>
+                <div class="detail-card">
+                    <i class="fas fa-gauge-high"></i>
+                    <span>Pressure</span>
+                    <strong id="pressure">1012 hPa</strong>
+                </div>
+            </div>
+        </div>
+
+        <div id="errorMessage" style="display: none;">
+            <i class="fas fa-triangle-exclamation"></i>
+            City not found. Try another one?
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

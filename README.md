@@ -1,5 +1,9 @@
 # 🌤️ LumiSky - Next-Gen Glassmorphic Weather App
 
+
+!BEFORE USING THIS TURN ON YOUR LOCATION!
+
+
 LumiSky is a premium, high-performance weather application that combines modern design aesthetics with real-time data. Built with a focus on UI/UX excellence, it features a "Next-Gen" Glassmorphism interface that adapts dynamically to current weather conditions.
 
 ![LumiSky Preview](https://via.placeholder.com/800x450.png?text=LumiSky+Glassmorphism+Interface) *(Add your own screenshot here!)*
@@ -45,3 +49,4 @@ LumiSky uses a curated HSL color palette and the **'Outfit'** typography system 
 
 ---
 Built with ❤️ by [Your Name]
+
